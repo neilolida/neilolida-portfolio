@@ -1,0 +1,286 @@
+*{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav__bgColor{
+    background-color: #BD5D38;
+}
+
+.navigation__wrapper > li > a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(224, 214, 214);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navigation__wrapper > li > a:active{
+    color: black;
+}
+
+.profile__img{
+    background: url(./assets/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 8px rgb(255, 255, 255, 0.3);
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.navigation__links:hover{
+    transition: .9s;
+    color: #000;
+}
+
+
+/*About Page*/
+.about__container{
+    height: 100vh;
+    padding-top: 20%;
+    margin-left: 5%;
+}
+
+.profile__name{
+    font-weight: 800;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+
+.profile__firstname{
+    color: #BD5D38;
+}
+
+.profile__address{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #6C757D;
+    font-weight: 600;
+
+}
+
+.profile__address > p >  a{
+   color: #BD5D38;
+   text-transform: lowercase;
+   font-weight: 600;
+}
+
+.profile__shortDescription{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #6C757D;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.profile__socmed > a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.profile__socmed > a > i{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.hr{
+    opacity: 10%;
+    border: 1px solid black;
+}
+
+
+/*Experience page*/
+.experience__container{
+    height: 100vh;
+    padding-top: 8%;
+    margin-left: 5%;
+}
+
+.profile__experience{
+    font-weight: 800;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.profile__listOfExperience > h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.profile__dateExperience{
+    font-family: 'Poppins', sans-serif;
+    color: #BD5D38;
+    font-size: 1.2rem;
+}
+
+.epxerience__jobTitle{
+    font-size: 1.8rem;
+    color: #6C757D;
+}
+
+.experience__description > p{
+    font-family: 'Poppins', sans-serif;
+    color: #6C757D;
+    font-size: 1rem;
+}
+
+
+/*Education page*/
+.education__container{
+    height: 100vh;
+    padding-top: 15%;
+    margin-left: 5%;
+}
+
+.profile__education{
+    font-weight: 800;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.profile__listOfEducation > h1{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.profile__dateOfEducation > p{
+    font-family: 'Poppins', sans-serif;
+    color: #BD5D38;
+    font-size: 1.2rem;
+}
+
+.profile__educationCourse{
+    font-size: 1.8rem;
+    color: #6C757D;
+}
+
+.profile__educationDescription{
+    font-family: 'Poppins', sans-serif;
+    color: #6C757D;
+    font-size: 1rem;
+}
+
+/*Skills Page*/
+.skills__container{
+    height: 100vh;
+    padding-top: 15%;
+    margin-left: 5%;
+}
+
+.profile__skills{
+    font-weight: 800;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.profile__skillsDescription{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6C757D;
+}
+
+.profile__toolsAndLanguages > i{
+    font-size: 3rem;
+    margin-right: 20px;
+    color: #6C757D;
+    margin-bottom: 20px;
+}
+.profile__workflow > h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6C757D;
+}
+.profile__workflow > ul > li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: #6C757D;
+}
+
+/*Interests Page*/
+.interests__container{
+    height: 100vh;
+    padding-top: 15%;
+    margin-left: 5%;
+}
+
+.profile__interests{
+    font-weight: 800;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+} 
+
+.interests__container > p {
+    font-family: 'Poppins', sans-serif;
+    color: #6C757D;
+}
+
+
+/*Testimonies Page*/
+
+.testimonies__container{
+    height: 100vh;
+    padding-top: 15%;
+    margin-left: 5%;
+}
+.profile__testimonies{
+    font-weight: 800;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.person__one{
+    background: url(./assets/maccoy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.person__two{
+    background: url(./assets/Ceejay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.person__name, .person__testimony{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #6C757D;
+}
+.person__testimony{
+    font-size: 1rem;
+}
+.person__testimony > span {
+    color: black;
+}
