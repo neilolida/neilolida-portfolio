@@ -4,6 +4,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* Side navbar */
 .nav__bgColor{
     background-color: #BD5D38;
 }
@@ -42,7 +44,6 @@
     color: #000;
 }
 
-
 /*About Page*/
 .about__container{
     height: 100vh;
@@ -61,7 +62,7 @@
 }
 
 .profile__address{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: #6C757D;
     font-weight: 600;
@@ -85,12 +86,18 @@
 .profile__socmed > a{
     text-decoration: none;
     color: black;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 .profile__socmed > a > i{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: 10px;
+}
+
+.profile__skill > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 800;
 }
 
 .hr{
@@ -284,3 +291,4 @@
 .person__testimony > span {
     color: black;
 }
+
